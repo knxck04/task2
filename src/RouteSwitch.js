@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./About";
 import Nav from "./Nav";
 import Manga from "./Manga";
+import React from 'react';
 
 const RouteSwitch = () => {
   return (
@@ -11,6 +12,7 @@ const RouteSwitch = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/Manga" element={<Manga />} />
+        
       </Routes>
     </Router>
   );
@@ -22,5 +24,6 @@ const Home = () => {
     </div>
   );
 };
+
 
 export default RouteSwitch;

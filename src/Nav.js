@@ -6,14 +6,14 @@ function Nav() {
   return (
     <nav>
 <h3>Logo</h3>
-<u1 className="nav-links">
-  <Link>
+<ul className="nav-links">
+  <Link to='/about'>
     <li>About</li>
     </Link>
-    <Link>
+    <Link to='/manga'>
     <li>Manga</li>
     </Link>
-</u1>
+</ul>
 
     </nav>
   );
